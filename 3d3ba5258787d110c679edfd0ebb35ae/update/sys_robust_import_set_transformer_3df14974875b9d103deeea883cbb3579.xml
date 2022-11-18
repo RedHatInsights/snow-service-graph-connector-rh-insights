@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_robust_import_set_transformer">
+    <sys_robust_import_set_transformer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <batch_size>100</batch_size>
+        <description/>
+        <name>SG-Red-Hat-Insights-Inventory-Hosts</name>
+        <properties/>
+        <robust_transform_engine display_value="SG-Red-Hat-Insights-Inventory-Hosts">f9f14974875b9d103deeea883cbb3576</robust_transform_engine>
+        <source_table>x_rhtpp_sg_rh_ins_sg_red_hat_insights_inventory_hosts</source_table>
+        <sys_class_name>sys_robust_import_set_transformer</sys_class_name>
+        <sys_created_by>jramos</sys_created_by>
+        <sys_created_on>2022-11-18 18:01:56</sys_created_on>
+        <sys_id>3df14974875b9d103deeea883cbb3579</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SG-Red-Hat-Insights-Inventory-Hosts</sys_name>
+        <sys_package display_value="Service Graph Connector for Red Hat Insights" source="x_rhtpp_sg_rh_ins">3d3ba5258787d110c679edfd0ebb35ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Red Hat Insights">3d3ba5258787d110c679edfd0ebb35ae</sys_scope>
+        <sys_update_name>sys_robust_import_set_transformer_3df14974875b9d103deeea883cbb3579</sys_update_name>
+        <sys_updated_by>jramos</sys_updated_by>
+        <sys_updated_on>2022-11-18 18:01:56</sys_updated_on>
+        <verbose>false</verbose>
+    </sys_robust_import_set_transformer>
+</record_update>

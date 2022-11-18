@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_entity_mapping">
+    <sys_rte_eb_entity_mapping action="INSERT_OR_UPDATE">
+        <condition_script><![CDATA[/*  Example Script  (function() {          //step1: access the input variables         if (input && input.temp.u_type == 'Disk') {         //step2: return true/false             return true;         }         return false;  })(); */  (function(input) {     // Add your code here. })(input);]]></condition_script>
+        <encoded_query/>
+        <entity_mapping_group/>
+        <ignore>false</ignore>
+        <is_conditional>false</is_conditional>
+        <name>impTotemp</name>
+        <order>100</order>
+        <source_sys_rte_eb_entity display_value="Import">3ed381f4875b9d103deeea883cbb3593</source_sys_rte_eb_entity>
+        <sys_class_name>sys_rte_eb_entity_mapping</sys_class_name>
+        <sys_created_by>jramos</sys_created_by>
+        <sys_created_on>2022-11-18 18:10:12</sys_created_on>
+        <sys_id>76d381f4875b9d103deeea883cbb3598</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>impTotemp</sys_name>
+        <sys_package display_value="Service Graph Connector for Red Hat Insights" source="x_rhtpp_sg_rh_ins">3d3ba5258787d110c679edfd0ebb35ae</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="SG-Red-Hat-Insights-Inventory-Hosts">f9f14974875b9d103deeea883cbb3576</sys_rte_eb_definition>
+        <sys_scope display_value="Service Graph Connector for Red Hat Insights">3d3ba5258787d110c679edfd0ebb35ae</sys_scope>
+        <sys_update_name>sys_rte_eb_entity_mapping_76d381f4875b9d103deeea883cbb3598</sys_update_name>
+        <sys_updated_by>jramos</sys_updated_by>
+        <sys_updated_on>2022-11-18 18:10:12</sys_updated_on>
+        <target_sys_rte_eb_entity display_value="temp">f6d381f4875b9d103deeea883cbb3596</target_sys_rte_eb_entity>
+    </sys_rte_eb_entity_mapping>
+</record_update>
