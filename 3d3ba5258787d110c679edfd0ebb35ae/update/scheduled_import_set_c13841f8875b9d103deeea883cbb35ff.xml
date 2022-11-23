@@ -31,7 +31,7 @@
         <pre_script/>
         <pre_script_bool>false</pre_script_bool>
         <record_source>regular</record_source>
-        <run_as display_value="Joao Paulo Ramos">fec90fff87645d103deeea883cbb359c</run_as>
+        <run_as/>
         <run_as_tz/>
         <run_dayofmonth>1</run_dayofmonth>
         <run_dayofweek>1</run_dayofweek>
@@ -44,14 +44,14 @@
         <sys_created_by>jramos</sys_created_by>
         <sys_created_on>2022-11-18 18:37:33</sys_created_on>
         <sys_id>c13841f8875b9d103deeea883cbb35ff</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>SG-Red-Hat-Insights Inventory Hosts</sys_name>
         <sys_package display_value="Service Graph Connector for Red Hat Insights" source="x_rhtpp_sg_rh_ins">3d3ba5258787d110c679edfd0ebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Red Hat Insights">3d3ba5258787d110c679edfd0ebb35ae</sys_scope>
         <sys_update_name>scheduled_import_set_c13841f8875b9d103deeea883cbb35ff</sys_update_name>
         <sys_updated_by>jramos</sys_updated_by>
-        <sys_updated_on>2022-11-18 18:37:33</sys_updated_on>
+        <sys_updated_on>2022-11-22 14:54:12</sys_updated_on>
         <time_zone/>
         <upgrade_safe>false</upgrade_safe>
     </scheduled_import_set>
