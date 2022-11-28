@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="gsw_content_group">
+    <gsw_content_group action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <checksum>86unXm7xy0fMT9e8mWVh0LvPvdQ=</checksum>
+        <child_can_have_roles>false</child_can_have_roles>
+        <children_layout>1</children_layout>
+        <dependent_on_contents/>
+        <dependent_on_plugins/>
+        <dependent_on_plugins_ids/>
+        <description><![CDATA[<p>Configure the authentication credentials to integrate with Red Hat Insights API</p>]]></description>
+        <display_child_max_num/>
+        <done_status_text/>
+        <hide_getting_started>false</hide_getting_started>
+        <icon/>
+        <implicit_dependent_on/>
+        <implicit_plugin_dependencies/>
+        <is_root_content>false</is_root_content>
+        <order>100</order>
+        <parent display_value="Red Hat Insights Integration with CMDB">7bef876687db15503deeea883cbb356f</parent>
+        <parents>7bef876687db15503deeea883cbb356f</parents>
+        <progress_text/>
+        <roles/>
+        <root_intro_frame_link/>
+        <root_parent display_value="Red Hat Insights Integration with CMDB">7bef876687db15503deeea883cbb356f</root_parent>
+        <skippable>false</skippable>
+        <supports_child_content>true</supports_child_content>
+        <sys_class_name>gsw_content_group</sys_class_name>
+        <sys_created_by>jramos</sys_created_by>
+        <sys_created_on>2022-11-24 14:57:20</sys_created_on>
+        <sys_id>0790df6687db15503deeea883cbb350c</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Configure the connection</sys_name>
+        <sys_package display_value="Service Graph Connector for Red Hat Insights" source="x_rhtpp_sg_rh_ins">3d3ba5258787d110c679edfd0ebb35ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Red Hat Insights">3d3ba5258787d110c679edfd0ebb35ae</sys_scope>
+        <sys_update_name>gsw_content_group_0790df6687db15503deeea883cbb350c</sys_update_name>
+        <sys_updated_by>jramos</sys_updated_by>
+        <sys_updated_on>2022-11-24 15:04:47</sys_updated_on>
+        <title>Configure the connection</title>
+        <weight>1</weight>
+    </gsw_content_group>
+    <sys_translated_text action="delete_multiple" query="documentkey=0790df6687db15503deeea883cbb350c"/>
+</record_update>
