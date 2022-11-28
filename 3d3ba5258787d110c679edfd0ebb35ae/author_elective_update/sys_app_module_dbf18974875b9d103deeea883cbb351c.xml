@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="System Import Sets">import_sets</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>SG-Red-Hat-Insights Inventory Hosts</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_rhtpp_sg_rh_ins_sg_red_hat_insights_inventory_hosts</name>
+        <order>1100</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>jramos</sys_created_by>
+        <sys_created_on>2022-11-18 18:02:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dbf18974875b9d103deeea883cbb351c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SG-Red-Hat-Insights Inventory Hosts</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Service Graph Connector for Red Hat Insights" source="x_rhtpp_sg_rh_ins">3d3ba5258787d110c679edfd0ebb35ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Red Hat Insights">3d3ba5258787d110c679edfd0ebb35ae</sys_scope>
+        <sys_update_name>sys_app_module_dbf18974875b9d103deeea883cbb351c</sys_update_name>
+        <sys_updated_by>jramos</sys_updated_by>
+        <sys_updated_on>2022-11-18 18:02:03</sys_updated_on>
+        <timeline_page/>
+        <title>SG-Red-Hat-Insights Inventory Hosts</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for Red Hat Insights">3d3ba5258787d110c679edfd0ebb35ae</application>
+        <file_path/>
+        <instance_id>e3874df4db9d0910ad8dd7c8f49619e8</instance_id>
+        <instance_name>ven05173</instance_name>
+        <name>sys_app_module_dbf18974875b9d103deeea883cbb351c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="System Import Sets">import_sets</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>SG-Red-Hat-Insights Inventory Hosts</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_rhtpp_sg_rh_ins_sg_red_hat_insights_inventory_hosts</name><order>1100</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>jramos</sys_created_by><sys_created_on>2022-11-18 18:02:03</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>dbf18974875b9d103deeea883cbb351c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>SG-Red-Hat-Insights Inventory Hosts</sys_name><sys_overrides/><sys_package display_value="Service Graph Connector for Red Hat Insights" source="x_rhtpp_sg_rh_ins">3d3ba5258787d110c679edfd0ebb35ae</sys_package><sys_policy/><sys_scope display_value="Service Graph Connector for Red Hat Insights">3d3ba5258787d110c679edfd0ebb35ae</sys_scope><sys_update_name>sys_app_module_dbf18974875b9d103deeea883cbb351c</sys_update_name><sys_updated_by>jramos</sys_updated_by><sys_updated_on>2022-11-18 18:02:03</sys_updated_on><timeline_page/><title>SG-Red-Hat-Insights Inventory Hosts</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-1866796586</payload_hash>
+        <record_name>SG-Red-Hat-Insights Inventory Hosts</record_name>
+        <reverted_from/>
+        <source>bfd0b5a58787d110c679edfd0ebb35aa</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jramos</sys_created_by>
+        <sys_created_on>2022-11-18 18:02:03</sys_created_on>
+        <sys_id>9bf18974875b9d103deeea883cbb351f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1848be79e3a0000001</sys_recorded_at>
+        <sys_updated_by>jramos</sys_updated_by>
+        <sys_updated_on>2022-11-18 18:02:03</sys_updated_on>
+        <type>Module</type>
+        <update_guid>d3f189749e5b9d106a05dd21452aa11f</update_guid>
+        <update_guid_history>d3f189749e5b9d106a05dd21452aa11f:-1866796586</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="SG-Red-Hat-Insights Inventory Hosts">213d4900876f9550c679edfd0ebb35f6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jramos</sys_created_by>
+        <sys_created_on>2022-11-28 21:11:20</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>007c8756716846a880109c9389daec90</sys_id>
+        <sys_metadata>dbf18974875b9d103deeea883cbb351c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SG-Red-Hat-Insights Inventory Hosts</sys_name>
+        <sys_package display_value="Service Graph Connector for Red Hat Insights" source="x_rhtpp_sg_rh_ins">3d3ba5258787d110c679edfd0ebb35ae</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Red Hat Insights">3d3ba5258787d110c679edfd0ebb35ae</sys_scope>
+        <sys_scope_delete display_value="">1796f56fcdc947b0863496025514d890</sys_scope_delete>
+        <sys_update_name>sys_app_module_dbf18974875b9d103deeea883cbb351c</sys_update_name>
+        <sys_update_version display_value="sys_app_module_dbf18974875b9d103deeea883cbb351c">9bf18974875b9d103deeea883cbb351f</sys_update_version>
+        <sys_updated_by>jramos</sys_updated_by>
+        <sys_updated_on>2022-11-28 21:11:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
