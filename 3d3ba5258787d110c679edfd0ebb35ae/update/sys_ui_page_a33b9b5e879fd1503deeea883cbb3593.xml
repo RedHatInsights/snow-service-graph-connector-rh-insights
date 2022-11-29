@@ -337,15 +337,19 @@ running');}
 					<div class="row body">
 						<p class="title-text no-margin">${gs.getMessage("Recommended Reading")}</p>
 						<p class="body-text">
-							<g:evaluate>
-								var params = [
-									'<a href="/api/now/v1/context_doc_url/CSHelp:Knowledge-Management" target="_blank" style="text-decoration: underline;">' + gs.getMessage("Knowledge Management") + '</a>'
-								];
-								var translatedMessage = gs.getMessage('Use our product documentation to learn more about using {0}.', params);
-							</g:evaluate>
-							<j2:whitespace trim="false">
-								<g2:no_escape>${translatedMessage}</g2:no_escape>
-							</j2:whitespace>
+							<a rel="noopener noreferrer nofollow"
+										  href="https://access.redhat.com/documentation/en-us/red_hat_insights/" target="_blank">Red Hat Insights
+										  documentation</a>
+						</p>
+						<p class="body-text">
+							<a rel="noopener noreferrer nofollow"
+										  href="https://www.redhat.com/en/technologies/management/insights/data-application-security"
+										  target="_blank">Red Hat Insights data and application security </a>
+						</p>
+						<p class="title-text no-margin">${gs.getMessage("Support")}</p>
+						<p class="body-text">
+							<a rel="noopener noreferrer nofollow" href="https://access.redhat.com/support/cases/#/case/new/open-case"
+							  target="_blank">Open a Red Hat Support ticket </a>
 						</p>
 					</div>
 				</div>
@@ -358,13 +362,13 @@ running');}
         <sys_created_by>jramos</sys_created_by>
         <sys_created_on>2022-11-23 21:09:05</sys_created_on>
         <sys_id>a33b9b5e879fd1503deeea883cbb3593</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name>$insights_guided_setup</sys_name>
         <sys_package display_value="Service Graph Connector for Red Hat Insights" source="x_rhtpp_sg_rh_ins">3d3ba5258787d110c679edfd0ebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Red Hat Insights">3d3ba5258787d110c679edfd0ebb35ae</sys_scope>
         <sys_update_name>sys_ui_page_a33b9b5e879fd1503deeea883cbb3593</sys_update_name>
         <sys_updated_by>jramos</sys_updated_by>
-        <sys_updated_on>2022-11-28 15:16:19</sys_updated_on>
+        <sys_updated_on>2022-11-29 17:43:43</sys_updated_on>
     </sys_ui_page>
 </record_update>
