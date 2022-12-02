@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="gsw_content_information">
     <gsw_content_information action="INSERT_OR_UPDATE">
         <active>true</active>
-        <article><![CDATA[<p>Review and setup the data Mapping for the Service Graph connector.</p>]]></article>
+        <article><![CDATA[<p>Choose the at least version 2.2.1 and click install.</p>
+<p>After the plugin is successfully installed, mark this step as Complete</p>]]></article>
         <best_practice_acceptable>false</best_practice_acceptable>
         <dependent_on_contents/>
         <dependent_on_plugins/>
         <dependent_on_plugins_ids/>
         <description/>
         <embedded_help_qualifier/>
-        <end_point>$cmdb_integration_studio.do#?step=templateState&amp;map=f9f14974875b9d103deeea883cbb3576</end_point>
+        <end_point>/$allappsmgmt.do?sysparm_use_polaris=false&amp;sysparm_search=sn_int_studio</end_point>
         <end_point_open_mode>3</end_point_open_mode>
         <end_point_type>1</end_point_type>
         <field/>
@@ -19,31 +20,31 @@
         <is_dynamic>false</is_dynamic>
         <more_info_available>false</more_info_available>
         <more_info_html/>
-        <order>401</order>
-        <parent display_value="Configure the Mapping">6c4ff044872f9550c679edfd0ebb35d4</parent>
-        <parents>6c4ff044872f9550c679edfd0ebb35d4,7bef876687db15503deeea883cbb356f</parents>
+        <order>101</order>
+        <parent display_value="Install IntegrationHub ETL">6d5e604587671d503deeea883cbb354e</parent>
+        <parents>6d5e604587671d503deeea883cbb354e,7bef876687db15503deeea883cbb356f</parents>
         <plugin_id/>
         <property_name/>
         <property_value/>
         <quick_startable>false</quick_startable>
         <root_parent display_value="Red Hat Insights Integration with CMDB">7bef876687db15503deeea883cbb356f</root_parent>
-        <skippable>true</skippable>
+        <skippable>false</skippable>
         <supports_child_content>false</supports_child_content>
         <sys_class_name>gsw_content_information</sys_class_name>
         <sys_created_by>jramos</sys_created_by>
-        <sys_created_on>2022-11-28 20:29:38</sys_created_on>
-        <sys_id>608289c4872f9550c679edfd0ebb352a</sys_id>
-        <sys_mod_count>7</sys_mod_count>
-        <sys_name>Configure the Mapping</sys_name>
+        <sys_created_on>2022-12-01 21:37:45</sys_created_on>
+        <sys_id>a4eee84587671d503deeea883cbb35c5</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Install IntegrationHub ETL</sys_name>
         <sys_package display_value="Service Graph Connector for Red Hat Insights" source="x_rhtpp_sg_rh_ins">3d3ba5258787d110c679edfd0ebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Red Hat Insights">3d3ba5258787d110c679edfd0ebb35ae</sys_scope>
-        <sys_update_name>gsw_content_information_608289c4872f9550c679edfd0ebb352a</sys_update_name>
+        <sys_update_name>gsw_content_information_a4eee84587671d503deeea883cbb35c5</sys_update_name>
         <sys_updated_by>jramos</sys_updated_by>
-        <sys_updated_on>2022-12-01 21:29:11</sys_updated_on>
+        <sys_updated_on>2022-12-01 21:55:06</sys_updated_on>
         <table/>
-        <title>Configure the Mapping</title>
+        <title>Install IntegrationHub ETL</title>
         <weight>1</weight>
     </gsw_content_information>
-    <sys_translated_text action="delete_multiple" query="documentkey=608289c4872f9550c679edfd0ebb352a"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=a4eee84587671d503deeea883cbb35c5"/>
 </record_update>

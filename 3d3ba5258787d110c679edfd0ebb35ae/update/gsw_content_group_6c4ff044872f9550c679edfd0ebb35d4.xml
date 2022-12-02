@@ -15,7 +15,7 @@
         <implicit_dependent_on/>
         <implicit_plugin_dependencies/>
         <is_root_content>false</is_root_content>
-        <order>200</order>
+        <order>500</order>
         <parent display_value="Red Hat Insights Integration with CMDB">7bef876687db15503deeea883cbb356f</parent>
         <parents>7bef876687db15503deeea883cbb356f</parents>
         <progress_text/>
@@ -28,14 +28,14 @@
         <sys_created_by>jramos</sys_created_by>
         <sys_created_on>2022-11-28 20:17:17</sys_created_on>
         <sys_id>6c4ff044872f9550c679edfd0ebb35d4</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>Configure the Mapping</sys_name>
         <sys_package display_value="Service Graph Connector for Red Hat Insights" source="x_rhtpp_sg_rh_ins">3d3ba5258787d110c679edfd0ebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Red Hat Insights">3d3ba5258787d110c679edfd0ebb35ae</sys_scope>
         <sys_update_name>gsw_content_group_6c4ff044872f9550c679edfd0ebb35d4</sys_update_name>
         <sys_updated_by>jramos</sys_updated_by>
-        <sys_updated_on>2022-11-28 20:40:56</sys_updated_on>
+        <sys_updated_on>2022-12-02 11:54:45</sys_updated_on>
         <title>Configure the Mapping</title>
         <weight>1</weight>
     </gsw_content_group>

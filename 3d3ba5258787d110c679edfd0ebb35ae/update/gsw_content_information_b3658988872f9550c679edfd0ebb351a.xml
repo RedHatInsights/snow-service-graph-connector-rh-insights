@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="gsw_content_information">
     <gsw_content_information action="INSERT_OR_UPDATE">
         <active>true</active>
-        <article><![CDATA[<p>Configure the Scheduled Import for the Service Graph connector.</p>]]></article>
+        <article><![CDATA[<p>Configure the Scheduled Import for the Service Graph connector</p>
+<p> </p>
+<p>To properly setup the Scheduled Import,</p>
+<p> </p>
+<ol style="list-style-position: inside;"><li>Set the user to Run As (use the user you setup the <strong><em>cmdb_inst_admin </em></strong>role)</li><li>Click Activate</li><li>Choose the Run frequency</li><li>Click Update</li></ol>
+<p> </p>
+<p>You can click &#34;Execute Now&#34; or wait for the Import to run in the appropriate frequency of choice.</p>
+<p> </p>
+<p>When you are done, mark this step as Complete</p>
+<p> </p>
+<p> </p>]]></article>
         <best_practice_acceptable>false</best_practice_acceptable>
         <dependent_on_contents/>
         <dependent_on_plugins/>
@@ -19,7 +29,7 @@
         <is_dynamic>false</is_dynamic>
         <more_info_available>false</more_info_available>
         <more_info_html/>
-        <order>301</order>
+        <order>501</order>
         <parent display_value="Configure the Scheduled Import">b461c5c4872f9550c679edfd0ebb35f1</parent>
         <parents>b461c5c4872f9550c679edfd0ebb35f1,7bef876687db15503deeea883cbb356f</parents>
         <plugin_id/>
@@ -27,20 +37,20 @@
         <property_value/>
         <quick_startable>false</quick_startable>
         <root_parent display_value="Red Hat Insights Integration with CMDB">7bef876687db15503deeea883cbb356f</root_parent>
-        <skippable>true</skippable>
+        <skippable>false</skippable>
         <supports_child_content>false</supports_child_content>
         <sys_class_name>gsw_content_information</sys_class_name>
         <sys_created_by>jramos</sys_created_by>
         <sys_created_on>2022-11-28 20:38:23</sys_created_on>
         <sys_id>b3658988872f9550c679edfd0ebb351a</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Configure Scheduled Import</sys_name>
         <sys_package display_value="Service Graph Connector for Red Hat Insights" source="x_rhtpp_sg_rh_ins">3d3ba5258787d110c679edfd0ebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Red Hat Insights">3d3ba5258787d110c679edfd0ebb35ae</sys_scope>
         <sys_update_name>gsw_content_information_b3658988872f9550c679edfd0ebb351a</sys_update_name>
         <sys_updated_by>jramos</sys_updated_by>
-        <sys_updated_on>2022-11-28 20:38:23</sys_updated_on>
+        <sys_updated_on>2022-12-02 13:01:27</sys_updated_on>
         <table/>
         <title>Configure Scheduled Import</title>
         <weight>1</weight>
