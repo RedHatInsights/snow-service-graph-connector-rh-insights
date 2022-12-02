@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="gsw_content_group">
     <gsw_content_group action="INSERT_OR_UPDATE">
         <active>true</active>
-        <checksum>jtVhen8x4H6uCTyRoIuMr9w3MtE=</checksum>
+        <checksum>1DcxDKYzPHwIn4e1CJVthqtwlpk=</checksum>
         <child_can_have_roles>false</child_can_have_roles>
-        <children_layout>0</children_layout>
+        <children_layout>1</children_layout>
         <dependent_on_contents/>
         <dependent_on_plugins/>
         <dependent_on_plugins_ids/>
-        <description/>
-        <display_child_max_num>8</display_child_max_num>
+        <description><![CDATA[<p>Validate the Data Source that is used by Service Graph for Red Hat Insights.</p>]]></description>
+        <display_child_max_num/>
         <done_status_text/>
         <hide_getting_started>false</hide_getting_started>
         <icon/>
         <implicit_dependent_on/>
         <implicit_plugin_dependencies/>
-        <is_root_content>true</is_root_content>
-        <order>0</order>
-        <parent/>
-        <parents/>
+        <is_root_content>false</is_root_content>
+        <order>400</order>
+        <parent display_value="Red Hat Insights Integration with CMDB">7bef876687db15503deeea883cbb356f</parent>
+        <parents>7bef876687db15503deeea883cbb356f</parents>
         <progress_text/>
         <roles/>
-        <root_intro_frame_link>x_rhtpp_sg_rh_ins_$insights_guided_setup.do</root_intro_frame_link>
-        <root_parent/>
+        <root_intro_frame_link/>
+        <root_parent display_value="Red Hat Insights Integration with CMDB">7bef876687db15503deeea883cbb356f</root_parent>
         <skippable>false</skippable>
         <supports_child_content>true</supports_child_content>
         <sys_class_name>gsw_content_group</sys_class_name>
         <sys_created_by>jramos</sys_created_by>
-        <sys_created_on>2022-11-24 14:53:48</sys_created_on>
-        <sys_id>7bef876687db15503deeea883cbb356f</sys_id>
-        <sys_mod_count>20</sys_mod_count>
-        <sys_name>Red Hat Insights Integration with CMDB</sys_name>
+        <sys_created_on>2022-12-02 11:54:17</sys_created_on>
+        <sys_id>b0d3fb4987ef1d503deeea883cbb356e</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Validate the Data Source</sys_name>
         <sys_package display_value="Service Graph Connector for Red Hat Insights" source="x_rhtpp_sg_rh_ins">3d3ba5258787d110c679edfd0ebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Red Hat Insights">3d3ba5258787d110c679edfd0ebb35ae</sys_scope>
-        <sys_update_name>gsw_content_group_7bef876687db15503deeea883cbb356f</sys_update_name>
+        <sys_update_name>gsw_content_group_b0d3fb4987ef1d503deeea883cbb356e</sys_update_name>
         <sys_updated_by>jramos</sys_updated_by>
         <sys_updated_on>2022-12-02 12:01:26</sys_updated_on>
-        <title>Red Hat Insights Integration with CMDB</title>
+        <title>Validate the Data Source</title>
         <weight>1</weight>
     </gsw_content_group>
-    <sys_translated_text action="delete_multiple" query="documentkey=7bef876687db15503deeea883cbb356f"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=b0d3fb4987ef1d503deeea883cbb356e"/>
 </record_update>

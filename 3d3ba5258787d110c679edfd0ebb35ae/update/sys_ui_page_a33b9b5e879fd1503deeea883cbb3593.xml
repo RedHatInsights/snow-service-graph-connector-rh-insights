@@ -293,48 +293,6 @@ running');}
 						</table>
 					</div>
 					<div class="row body">
-						<p class="title-text no-margin">${gs.getMessage("Pre-Setup Guide")}</p>
-						<p class="body-text">${gs.getMessage("Determine your knowledge requirements in advance to ease the setup process.")}</p>
-					</div>
-					<div class="row pad-t20 margin-t8">
-						<div class="checklist">
-							<table class="table no-margin">
-								<tbody>
-									<tr>
-										<td class="no-padding no-border pad-15">
-											<table class="table no-margin">
-												<tbody>
-													<tr>
-														<td width="50%" class="no-border no-padding right-border-gray pad-checklist">
-															<p class="text-center header-text" style="margin-top: 9px;">
-																${gs.getMessage("What are you going to setup?")}
-															</p>														
-															<ul class="list-group no-margin">
-																<li class="list-group-item no-border border-top-gray">
-																	<p class="body-text no-margin">${gs.getMessage("1) Connection with Red Hat Insights API. Be sure you have Red Hat Insights username and password handy.")}</p>
-																</li>
-															</ul>
-															<ul class="list-group no-margin">
-																<li class="list-group-item no-border border-top-gray">
-																	<p class="body-text no-margin">${gs.getMessage("2) Configure the Mapping")}</p>
-																</li>
-															</ul>
-															<ul class="list-group no-margin">
-																<li class="list-group-item no-border border-top-gray">
-																	<p class="body-text no-margin">${gs.getMessage("3) Configure Scheduled Import")}</p>
-																</li>
-															</ul>																
-														</td>
-													</tr>												
-												</tbody>
-											</table>
-										</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</div>
-					<div class="row body">
 						<p class="title-text no-margin">${gs.getMessage("Recommended Reading")}</p>
 						<p class="body-text">
 							<a rel="noopener noreferrer nofollow"
@@ -362,13 +320,13 @@ running');}
         <sys_created_by>jramos</sys_created_by>
         <sys_created_on>2022-11-23 21:09:05</sys_created_on>
         <sys_id>a33b9b5e879fd1503deeea883cbb3593</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_name>$insights_guided_setup</sys_name>
         <sys_package display_value="Service Graph Connector for Red Hat Insights" source="x_rhtpp_sg_rh_ins">3d3ba5258787d110c679edfd0ebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Red Hat Insights">3d3ba5258787d110c679edfd0ebb35ae</sys_scope>
         <sys_update_name>sys_ui_page_a33b9b5e879fd1503deeea883cbb3593</sys_update_name>
         <sys_updated_by>jramos</sys_updated_by>
-        <sys_updated_on>2022-11-29 17:43:43</sys_updated_on>
+        <sys_updated_on>2022-12-01 21:40:31</sys_updated_on>
     </sys_ui_page>
 </record_update>

@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="gsw_content_information">
     <gsw_content_information action="INSERT_OR_UPDATE">
         <active>true</active>
-        <article><![CDATA[<p>Review and setup the data Mapping for the Service Graph connector.</p>]]></article>
+        <article><![CDATA[<p>Validate the Data Source that is used by Service Graph for Red Hat Insights</p>
+<p> </p>
+<ul style="list-style-position: inside;"><li>Open Data Source from list view and Click the &#39;Test Load 20 Records&#39; related link. If the completion code is Success, mark this step as complete. If the completion code is Error, there is an error in the Red Hat Insights Connection that you must fix.</li></ul>]]></article>
         <best_practice_acceptable>false</best_practice_acceptable>
         <dependent_on_contents/>
         <dependent_on_plugins/>
         <dependent_on_plugins_ids/>
         <description/>
         <embedded_help_qualifier/>
-        <end_point>$cmdb_integration_studio.do#?step=templateState&amp;map=f9f14974875b9d103deeea883cbb3576</end_point>
+        <end_point>/sys_data_source_list.do?sysparm_query=sys_scope=3d3ba5258787d110c679edfd0ebb35ae&amp;sysparm_first_row=1&amp;sysparm_view=</end_point>
         <end_point_open_mode>3</end_point_open_mode>
         <end_point_type>1</end_point_type>
         <field/>
@@ -20,8 +22,8 @@
         <more_info_available>false</more_info_available>
         <more_info_html/>
         <order>401</order>
-        <parent display_value="Configure the Mapping">6c4ff044872f9550c679edfd0ebb35d4</parent>
-        <parents>6c4ff044872f9550c679edfd0ebb35d4,7bef876687db15503deeea883cbb356f</parents>
+        <parent display_value="Validate the Data Source">b0d3fb4987ef1d503deeea883cbb356e</parent>
+        <parents>b0d3fb4987ef1d503deeea883cbb356e,7bef876687db15503deeea883cbb356f</parents>
         <plugin_id/>
         <property_name/>
         <property_value/>
@@ -31,19 +33,19 @@
         <supports_child_content>false</supports_child_content>
         <sys_class_name>gsw_content_information</sys_class_name>
         <sys_created_by>jramos</sys_created_by>
-        <sys_created_on>2022-11-28 20:29:38</sys_created_on>
-        <sys_id>608289c4872f9550c679edfd0ebb352a</sys_id>
-        <sys_mod_count>7</sys_mod_count>
-        <sys_name>Configure the Mapping</sys_name>
+        <sys_created_on>2022-12-02 12:01:26</sys_created_on>
+        <sys_id>e054bf8987ef1d503deeea883cbb3529</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Validate the Data Source</sys_name>
         <sys_package display_value="Service Graph Connector for Red Hat Insights" source="x_rhtpp_sg_rh_ins">3d3ba5258787d110c679edfd0ebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Red Hat Insights">3d3ba5258787d110c679edfd0ebb35ae</sys_scope>
-        <sys_update_name>gsw_content_information_608289c4872f9550c679edfd0ebb352a</sys_update_name>
+        <sys_update_name>gsw_content_information_e054bf8987ef1d503deeea883cbb3529</sys_update_name>
         <sys_updated_by>jramos</sys_updated_by>
-        <sys_updated_on>2022-12-01 21:29:11</sys_updated_on>
+        <sys_updated_on>2022-12-02 12:02:36</sys_updated_on>
         <table/>
-        <title>Configure the Mapping</title>
+        <title>Validate the Data Source</title>
         <weight>1</weight>
     </gsw_content_information>
-    <sys_translated_text action="delete_multiple" query="documentkey=608289c4872f9550c679edfd0ebb352a"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=e054bf8987ef1d503deeea883cbb3529"/>
 </record_update>

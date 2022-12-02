@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="gsw_content_information">
     <gsw_content_information action="INSERT_OR_UPDATE">
         <active>true</active>
-        <article/>
+        <article><![CDATA[<p>Open the connection dashboard to configure the connection</p>
+<p>In order to complete this step, you will need the following information.</p>
+<ul style="list-style-position: inside;"><li>Connection name: <strong>Red Hat Insights Connection</strong></li><li>Connection url: <strong>https://</strong><strong>console.redhat.com</strong></li><li>Red Hat Insights user name</li><li>Red Hat Insights password</li></ul>]]></article>
         <best_practice_acceptable>false</best_practice_acceptable>
         <dependent_on_contents/>
         <dependent_on_plugins/>
         <dependent_on_plugins_ids/>
         <description/>
         <embedded_help_qualifier/>
-        <end_point>/basic_auth_credentials.do?sys_id=e130034f87eed9103deeea883cbb3596</end_point>
+        <end_point>/$flow-designer.do?sysparm_nostack=true&amp;sysparm_use_polaris=false#/welcome/connection-dashboard/c69242a587c7d110c679edfd0ebb3590</end_point>
         <end_point_open_mode>3</end_point_open_mode>
         <end_point_type>1</end_point_type>
         <field/>
@@ -19,7 +21,7 @@
         <is_dynamic>false</is_dynamic>
         <more_info_available>false</more_info_available>
         <more_info_html/>
-        <order>101</order>
+        <order>301</order>
         <parent display_value="Configure the connection">0790df6687db15503deeea883cbb350c</parent>
         <parents>0790df6687db15503deeea883cbb350c,7bef876687db15503deeea883cbb356f</parents>
         <plugin_id/>
@@ -33,14 +35,14 @@
         <sys_created_by>jramos</sys_created_by>
         <sys_created_on>2022-11-24 15:04:47</sys_created_on>
         <sys_id>dc3297e687db15503deeea883cbb3557</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Configure the Credentials</sys_name>
         <sys_package display_value="Service Graph Connector for Red Hat Insights" source="x_rhtpp_sg_rh_ins">3d3ba5258787d110c679edfd0ebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Red Hat Insights">3d3ba5258787d110c679edfd0ebb35ae</sys_scope>
         <sys_update_name>gsw_content_information_dc3297e687db15503deeea883cbb3557</sys_update_name>
         <sys_updated_by>jramos</sys_updated_by>
-        <sys_updated_on>2022-11-24 15:04:47</sys_updated_on>
+        <sys_updated_on>2022-12-01 21:27:57</sys_updated_on>
         <table/>
         <title>Configure the Credentials</title>
         <weight>1</weight>
