@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="gsw_content_information">
     <gsw_content_information action="INSERT_OR_UPDATE">
         <active>true</active>
-        <article><![CDATA[<p>Choose the at least version 2.2.1 and click install.</p>
+        <article><![CDATA[<p>Choose at least version 2.2.1 and click install.</p>
 <p>After the plugin is successfully installed, mark this step as Complete</p>]]></article>
         <best_practice_acceptable>false</best_practice_acceptable>
         <dependent_on_contents/>
@@ -34,14 +34,14 @@
         <sys_created_by>jramos</sys_created_by>
         <sys_created_on>2022-12-01 21:37:45</sys_created_on>
         <sys_id>a4eee84587671d503deeea883cbb35c5</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Install IntegrationHub ETL</sys_name>
         <sys_package display_value="Service Graph Connector for Red Hat Insights" source="x_rhtpp_sg_rh_ins">3d3ba5258787d110c679edfd0ebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Red Hat Insights">3d3ba5258787d110c679edfd0ebb35ae</sys_scope>
         <sys_update_name>gsw_content_information_a4eee84587671d503deeea883cbb35c5</sys_update_name>
         <sys_updated_by>jramos</sys_updated_by>
-        <sys_updated_on>2022-12-01 21:55:06</sys_updated_on>
+        <sys_updated_on>2022-12-14 19:01:06</sys_updated_on>
         <table/>
         <title>Install IntegrationHub ETL</title>
         <weight>1</weight>

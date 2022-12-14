@@ -7,7 +7,7 @@
         <dependent_on_contents/>
         <dependent_on_plugins/>
         <dependent_on_plugins_ids/>
-        <description><![CDATA[<p>Configure the authentication credentials to integrate with Red Hat Insights API</p>]]></description>
+        <description><![CDATA[<p>Configure the authentication credentials to integrate with the Red Hat Insights API</p>]]></description>
         <display_child_max_num/>
         <done_status_text/>
         <hide_getting_started>false</hide_getting_started>
@@ -28,15 +28,15 @@
         <sys_created_by>jramos</sys_created_by>
         <sys_created_on>2022-11-24 14:57:20</sys_created_on>
         <sys_id>0790df6687db15503deeea883cbb350c</sys_id>
-        <sys_mod_count>7</sys_mod_count>
-        <sys_name>Configure the connection</sys_name>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Configure the Connection</sys_name>
         <sys_package display_value="Service Graph Connector for Red Hat Insights" source="x_rhtpp_sg_rh_ins">3d3ba5258787d110c679edfd0ebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Red Hat Insights">3d3ba5258787d110c679edfd0ebb35ae</sys_scope>
         <sys_update_name>gsw_content_group_0790df6687db15503deeea883cbb350c</sys_update_name>
         <sys_updated_by>jramos</sys_updated_by>
-        <sys_updated_on>2022-12-01 21:27:33</sys_updated_on>
-        <title>Configure the connection</title>
+        <sys_updated_on>2022-12-14 19:09:14</sys_updated_on>
+        <title>Configure the Connection</title>
         <weight>1</weight>
     </gsw_content_group>
     <sys_translated_text action="delete_multiple" query="documentkey=0790df6687db15503deeea883cbb350c"/>

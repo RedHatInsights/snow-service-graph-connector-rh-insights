@@ -7,7 +7,7 @@
         <dependent_on_contents/>
         <dependent_on_plugins/>
         <dependent_on_plugins_ids/>
-        <description><![CDATA[<p>There is a need to install IntegrationHub ETL plugin to properly setup and run Service Graph Connector for Red Hat Insights</p>]]></description>
+        <description><![CDATA[<p>The IntegrationHub ETL plugin needs to be installed to properly setup and run Service Graph Connector for Red Hat Insights</p>]]></description>
         <display_child_max_num/>
         <done_status_text/>
         <hide_getting_started>false</hide_getting_started>
@@ -28,14 +28,14 @@
         <sys_created_by>jramos</sys_created_by>
         <sys_created_on>2022-12-01 21:31:58</sys_created_on>
         <sys_id>6d5e604587671d503deeea883cbb354e</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Install IntegrationHub ETL</sys_name>
         <sys_package display_value="Service Graph Connector for Red Hat Insights" source="x_rhtpp_sg_rh_ins">3d3ba5258787d110c679edfd0ebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Red Hat Insights">3d3ba5258787d110c679edfd0ebb35ae</sys_scope>
         <sys_update_name>gsw_content_group_6d5e604587671d503deeea883cbb354e</sys_update_name>
         <sys_updated_by>jramos</sys_updated_by>
-        <sys_updated_on>2022-12-01 21:37:45</sys_updated_on>
+        <sys_updated_on>2022-12-14 19:00:42</sys_updated_on>
         <title>Install IntegrationHub ETL</title>
         <weight>1</weight>
     </gsw_content_group>

@@ -7,7 +7,7 @@
         <dependent_on_contents/>
         <dependent_on_plugins/>
         <dependent_on_plugins_ids/>
-        <description><![CDATA[<p>Validate the Data Source that is used by Service Graph for Red Hat Insights.</p>]]></description>
+        <description><![CDATA[<p>Test the connection that is used by Service Graph for Red Hat Insights.</p>]]></description>
         <display_child_max_num/>
         <done_status_text/>
         <hide_getting_started>false</hide_getting_started>
@@ -28,15 +28,15 @@
         <sys_created_by>jramos</sys_created_by>
         <sys_created_on>2022-12-02 11:54:17</sys_created_on>
         <sys_id>b0d3fb4987ef1d503deeea883cbb356e</sys_id>
-        <sys_mod_count>7</sys_mod_count>
-        <sys_name>Validate the Data Source</sys_name>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Test Connection</sys_name>
         <sys_package display_value="Service Graph Connector for Red Hat Insights" source="x_rhtpp_sg_rh_ins">3d3ba5258787d110c679edfd0ebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Red Hat Insights">3d3ba5258787d110c679edfd0ebb35ae</sys_scope>
         <sys_update_name>gsw_content_group_b0d3fb4987ef1d503deeea883cbb356e</sys_update_name>
         <sys_updated_by>jramos</sys_updated_by>
-        <sys_updated_on>2022-12-02 12:01:26</sys_updated_on>
-        <title>Validate the Data Source</title>
+        <sys_updated_on>2022-12-14 19:11:26</sys_updated_on>
+        <title>Test Connection</title>
         <weight>1</weight>
     </gsw_content_group>
     <sys_translated_text action="delete_multiple" query="documentkey=b0d3fb4987ef1d503deeea883cbb356e"/>
