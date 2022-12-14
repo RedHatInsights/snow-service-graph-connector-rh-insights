@@ -3,7 +3,7 @@
         <active>true</active>
         <article><![CDATA[<p>In order to complete this step, do the following,</p>
 <p> </p>
-<ol style="list-style-position: inside;"><li>Find the user in the Users table</li><li>To to Roles tab and click in Edit</li><li>Find the <strong><em>cmdb_inst_admin </em></strong>role</li><li>Click Add (&gt;) and save it</li></ol>
+<ol style="list-style-position: inside;"><li>Find the user in the Users table</li><li>Go to the Roles tab and click Edit</li><li>Find the <strong><em>cmdb_inst_admin </em></strong>role</li><li>Click Add (&gt;) and save it</li></ol>
 <p>After that, mark this step as Complete</p>]]></article>
         <best_practice_acceptable>false</best_practice_acceptable>
         <dependent_on_contents/>
@@ -36,14 +36,14 @@
         <sys_created_by>jramos</sys_created_by>
         <sys_created_on>2022-12-01 20:32:14</sys_created_on>
         <sys_id>8560604987271d503deeea883cbb35df</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Setup user role</sys_name>
         <sys_package display_value="Service Graph Connector for Red Hat Insights" source="x_rhtpp_sg_rh_ins">3d3ba5258787d110c679edfd0ebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Red Hat Insights">3d3ba5258787d110c679edfd0ebb35ae</sys_scope>
         <sys_update_name>gsw_content_information_8560604987271d503deeea883cbb35df</sys_update_name>
         <sys_updated_by>jramos</sys_updated_by>
-        <sys_updated_on>2022-12-01 21:27:51</sys_updated_on>
+        <sys_updated_on>2022-12-14 19:04:17</sys_updated_on>
         <table/>
         <title>Setup user role</title>
         <weight>1</weight>
