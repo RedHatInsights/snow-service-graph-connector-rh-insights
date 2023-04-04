@@ -5,10 +5,10 @@
         <concurrent_import>false</concurrent_import>
         <condition/>
         <conditional>false</conditional>
-        <data_source display_value="SG-Red-Hat-Insights Inventory Hosts">6dca34fc871b9d103deeea883cbb35b0</data_source>
+        <data_source display_value="SG-Red-Hat-Insights Advisor Hits">b861055bc3f9a910b153bdb4e4013137</data_source>
         <entered_time/>
         <map/>
-        <name>SG-Red-Hat-Insights Inventory Hosts</name>
+        <name>SG-Red-Hat-Insights Advisor Hits</name>
         <offset/>
         <offset_type>0</offset_type>
         <order/>
@@ -31,27 +31,27 @@
         <pre_script/>
         <pre_script_bool>false</pre_script_bool>
         <record_source>regular</record_source>
-        <run_as display_value="Joao Paulo Ramos">fec90fff87645d103deeea883cbb359c</run_as>
+        <run_as display_value="Ashley Young">214824ce87ac2910c679edfd0ebb35d4</run_as>
         <run_as_tz/>
         <run_dayofmonth>1</run_dayofmonth>
         <run_dayofweek>1</run_dayofweek>
         <run_period/>
-        <run_start>2022-11-18 18:29:11</run_start>
-        <run_time>1970-01-02 06:00:00</run_time>
+        <run_start>2023-03-30 19:10:44</run_start>
+        <run_time>1970-01-01 08:00:00</run_time>
         <run_type>daily</run_type>
         <synchronize_inserts>true</synchronize_inserts>
         <sys_class_name>scheduled_import_set</sys_class_name>
-        <sys_created_by>jramos</sys_created_by>
-        <sys_created_on>2022-11-18 18:37:33</sys_created_on>
-        <sys_id>c13841f8875b9d103deeea883cbb35ff</sys_id>
-        <sys_mod_count>9</sys_mod_count>
-        <sys_name>SG-Red-Hat-Insights Inventory Hosts</sys_name>
+        <sys_created_by>sparkles</sys_created_by>
+        <sys_created_on>2023-03-30 19:12:08</sys_created_on>
+        <sys_id>f09341dbc3f9a910b153bdb4e40131aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SG-Red-Hat-Insights Advisor Hits</sys_name>
         <sys_package display_value="Service Graph Connector for Red Hat Insights" source="x_rhtpp_sg_rh_ins">3d3ba5258787d110c679edfd0ebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Red Hat Insights">3d3ba5258787d110c679edfd0ebb35ae</sys_scope>
-        <sys_update_name>scheduled_import_set_c13841f8875b9d103deeea883cbb35ff</sys_update_name>
-        <sys_updated_by>jramos</sys_updated_by>
-        <sys_updated_on>2023-03-02 18:35:04</sys_updated_on>
+        <sys_update_name>scheduled_import_set_f09341dbc3f9a910b153bdb4e40131aa</sys_update_name>
+        <sys_updated_by>sparkles</sys_updated_by>
+        <sys_updated_on>2023-03-30 19:12:08</sys_updated_on>
         <time_zone/>
         <upgrade_safe>false</upgrade_safe>
     </scheduled_import_set>

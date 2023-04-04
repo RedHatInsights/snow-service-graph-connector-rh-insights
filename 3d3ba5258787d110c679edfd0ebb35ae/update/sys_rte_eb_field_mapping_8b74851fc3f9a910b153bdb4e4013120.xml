@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_field_mapping">
+    <sys_rte_eb_field_mapping action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <referenced_sys_rte_eb_entity/>
+        <source_sys_rte_eb_field display_value="u_moderate_hits">cb74851fc3f9a910b153bdb4e401311d</source_sys_rte_eb_field>
+        <sys_class_name>sys_rte_eb_field_mapping</sys_class_name>
+        <sys_created_by>sparkles</sys_created_by>
+        <sys_created_on>2023-03-30 19:14:43</sys_created_on>
+        <sys_id>8b74851fc3f9a910b153bdb4e4013120</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Service Graph Connector for Red Hat Insights" source="x_rhtpp_sg_rh_ins">3d3ba5258787d110c679edfd0ebb35ae</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="SG-Red-Hat-Insights-Advisor-Hits">8c74411fc3f9a910b153bdb4e4013128</sys_rte_eb_definition>
+        <sys_rte_eb_entity_mapping display_value="impTotemp">7674451fc3f9a910b153bdb4e40131e1</sys_rte_eb_entity_mapping>
+        <sys_scope display_value="Service Graph Connector for Red Hat Insights">3d3ba5258787d110c679edfd0ebb35ae</sys_scope>
+        <sys_update_name>sys_rte_eb_field_mapping_8b74851fc3f9a910b153bdb4e4013120</sys_update_name>
+        <sys_updated_by>sparkles</sys_updated_by>
+        <sys_updated_on>2023-03-30 19:14:43</sys_updated_on>
+        <target_sys_rte_eb_field display_value="u_moderate_hits">c374851fc3f9a910b153bdb4e401311f</target_sys_rte_eb_field>
+    </sys_rte_eb_field_mapping>
+</record_update>

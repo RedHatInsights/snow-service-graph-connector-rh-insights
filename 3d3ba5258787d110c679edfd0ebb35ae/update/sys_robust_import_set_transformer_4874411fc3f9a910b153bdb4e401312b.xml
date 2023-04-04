@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_robust_import_set_transformer">
+    <sys_robust_import_set_transformer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <batch_size>100</batch_size>
+        <description/>
+        <name>SG-Red-Hat-Insights-Advisor-Hits</name>
+        <properties/>
+        <robust_transform_engine display_value="SG-Red-Hat-Insights-Advisor-Hits">8c74411fc3f9a910b153bdb4e4013128</robust_transform_engine>
+        <source_table>x_rhtpp_sg_rh_ins_sg_red_hat_insights_advisor_hits</source_table>
+        <sys_class_name>sys_robust_import_set_transformer</sys_class_name>
+        <sys_created_by>sparkles</sys_created_by>
+        <sys_created_on>2023-03-30 19:14:31</sys_created_on>
+        <sys_id>4874411fc3f9a910b153bdb4e401312b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SG-Red-Hat-Insights-Advisor-Hits</sys_name>
+        <sys_package display_value="Service Graph Connector for Red Hat Insights" source="x_rhtpp_sg_rh_ins">3d3ba5258787d110c679edfd0ebb35ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Red Hat Insights">3d3ba5258787d110c679edfd0ebb35ae</sys_scope>
+        <sys_update_name>sys_robust_import_set_transformer_4874411fc3f9a910b153bdb4e401312b</sys_update_name>
+        <sys_updated_by>sparkles</sys_updated_by>
+        <sys_updated_on>2023-03-30 19:14:31</sys_updated_on>
+        <verbose>false</verbose>
+    </sys_robust_import_set_transformer>
+</record_update>

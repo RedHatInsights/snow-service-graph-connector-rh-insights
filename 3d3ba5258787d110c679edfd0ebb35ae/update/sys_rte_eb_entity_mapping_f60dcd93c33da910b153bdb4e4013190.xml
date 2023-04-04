@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_entity_mapping">
+    <sys_rte_eb_entity_mapping action="INSERT_OR_UPDATE">
+        <condition_script><![CDATA[/*  Example Script  (function() {          //step1: access the input variables         if (input && input.temp.u_type == 'Disk') {         //step2: return true/false             return true;         }         return false;  })(); */  (function(input) {     // Add your code here. })(input);]]></condition_script>
+        <encoded_query/>
+        <entity_mapping_group>ba0dcd93c33da910b153bdb4e401318e</entity_mapping_group>
+        <ignore>false</ignore>
+        <is_conditional>false</is_conditional>
+        <name>tempToLinux Server 1</name>
+        <order>100</order>
+        <source_sys_rte_eb_entity display_value="temp">3e74451fc3f9a910b153bdb4e40131df</source_sys_rte_eb_entity>
+        <sys_class_name>sys_rte_eb_entity_mapping</sys_class_name>
+        <sys_created_by>sparkles</sys_created_by>
+        <sys_created_on>2023-03-30 19:52:06</sys_created_on>
+        <sys_id>f60dcd93c33da910b153bdb4e4013190</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>tempToLinux Server 1</sys_name>
+        <sys_package display_value="Service Graph Connector for Red Hat Insights" source="x_rhtpp_sg_rh_ins">3d3ba5258787d110c679edfd0ebb35ae</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="SG-Red-Hat-Insights-Advisor-Hits">8c74411fc3f9a910b153bdb4e4013128</sys_rte_eb_definition>
+        <sys_scope display_value="Service Graph Connector for Red Hat Insights">3d3ba5258787d110c679edfd0ebb35ae</sys_scope>
+        <sys_update_name>sys_rte_eb_entity_mapping_f60dcd93c33da910b153bdb4e4013190</sys_update_name>
+        <sys_updated_by>sparkles</sys_updated_by>
+        <sys_updated_on>2023-03-30 19:52:06</sys_updated_on>
+        <target_sys_rte_eb_entity display_value="Linux Server 1">3e0dcd93c33da910b153bdb4e401318e</target_sys_rte_eb_entity>
+    </sys_rte_eb_entity_mapping>
+</record_update>
