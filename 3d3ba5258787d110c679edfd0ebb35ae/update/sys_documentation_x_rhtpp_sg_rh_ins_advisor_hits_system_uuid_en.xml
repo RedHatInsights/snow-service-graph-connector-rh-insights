@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="system_uuid" label="System UUID" language="en" table="x_rhtpp_sg_rh_ins_advisor_hits">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>system_uuid</element>
+            <help/>
+            <hint/>
+            <label>System UUID</label>
+            <language>en</language>
+            <name>x_rhtpp_sg_rh_ins_advisor_hits</name>
+            <plural>System UUIDs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>sparkles</sys_created_by>
+            <sys_created_on>2023-03-30 18:51:21</sys_created_on>
+            <sys_id>ac2fb817c3f9a910b153bdb4e4013131</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>System UUID</sys_name>
+            <sys_package display_value="Service Graph Connector for Red Hat Insights" source="x_rhtpp_sg_rh_ins">3d3ba5258787d110c679edfd0ebb35ae</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Service Graph Connector for Red Hat Insights">3d3ba5258787d110c679edfd0ebb35ae</sys_scope>
+            <sys_update_name>sys_documentation_x_rhtpp_sg_rh_ins_advisor_hits_system_uuid_en</sys_update_name>
+            <sys_updated_by>sparkles</sys_updated_by>
+            <sys_updated_on>2023-03-30 18:51:21</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

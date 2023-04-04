@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Advisor Hits" max_length="40" name="x_rhtpp_sg_rh_ins_advisor_hits" sizeclass="1" type="collection">
+        <element label="All Pathway Hits" max_length="40" name="all_pathway_hits" type="integer"/>
+        <element label="Configuration Item" max_length="32" name="configuration_item" reference="cmdb_ci_linux_server" type="reference"/>
+        <element label="Critical Hits" max_length="40" name="critical_hits" type="integer"/>
+        <element label="Hits" max_length="40" name="hits" type="integer"/>
+        <element label="Important Hits" max_length="40" name="important_hits" type="integer"/>
+        <element label="Incident Hits" max_length="40" name="incident_hits" type="integer"/>
+        <element label="Last Seen" max_length="40" name="last_seen" type="glide_date_time"/>
+        <element label="Low Hits" max_length="40" name="low_hits" type="integer"/>
+        <element label="Moderate Hits" max_length="40" name="moderate_hits" type="integer"/>
+        <element label="Pathway Filter Hits" max_length="40" name="pathway_filter_hits" type="integer"/>
+        <element label="RHEL Version" max_length="40" name="rhel_version" type="float"/>
+        <element label="Stale At" max_length="40" name="stale_at" type="glide_date_time"/>
+        <element label="System UUID" max_length="64" name="system_uuid" type="string"/>
+        <index name="index">
+            <element name="configuration_item"/>
+        </index>
+        <index name="index2">
+            <element name="system_uuid"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="SG-Red-Hat-Insights Advisor Hits" max_length="40" name="x_rhtpp_sg_rh_ins_sg_red_hat_insights_advisor_hits" sizeclass="320" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=all_path_hits" label="all_path_hits" max_length="40" name="u_all_path_hits" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=critical_hits" label="critical_hits" max_length="40" name="u_critical_hits" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=hits" label="hits" max_length="40" name="u_hits" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=important_hits" label="important_hits" max_length="40" name="u_important_hits" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=inc_hits" label="inc_hits" max_length="40" name="u_inc_hits" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=last_seen" label="last_seen" max_length="40" name="u_last_seen" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=low_hits" label="low_hits" max_length="40" name="u_low_hits" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=moderate_hits" label="moderate_hits" max_length="40" name="u_moderate_hits" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=name" label="name" max_length="55" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=path_filter_hits" label="path_filter_hits" max_length="40" name="u_path_filter_hits" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=rhel_version" label="rhel_version" max_length="40" name="u_rhel_version" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=stale_at" label="stale_at" max_length="40" name="u_stale_at" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=sys_uuid" label="sys_uuid" max_length="40" name="u_sys_uuid" type="string"/>
+    </element>
+</database>
