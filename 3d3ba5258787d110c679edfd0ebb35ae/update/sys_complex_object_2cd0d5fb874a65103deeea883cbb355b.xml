@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD68d0d5fb504a6510c4142e32fe89025b</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>3d3ba5258787d110c679edfd0ebb35ae</scope_name>
+        <serialized_content>{"FlowDesigner:FD68d0d5fb504a6510c4142e32fe89025b":{},"FlowDesigner:FD68d0d5fb504a6510c4142e32fe89025b.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"host\",\"mandatory\":\"false\",\"uiUniqueId\":\"1614d7e1-ddae-4986-b8d4-e7f78c1917b8\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD68d0d5fb504a6510c4142e32fe89025b\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>jramos</sys_created_by>
+        <sys_created_on>2023-04-13 19:41:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2cd0d5fb874a65103deeea883cbb355b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD68d0d5fb504a6510c4142e32fe89025b</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Service Graph Connector for Red Hat Insights" source="x_rhtpp_sg_rh_ins">3d3ba5258787d110c679edfd0ebb35ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Red Hat Insights">3d3ba5258787d110c679edfd0ebb35ae</sys_scope>
+        <sys_update_name>sys_complex_object_2cd0d5fb874a65103deeea883cbb355b</sys_update_name>
+        <sys_updated_by>jramos</sys_updated_by>
+        <sys_updated_on>2023-04-13 19:41:17</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

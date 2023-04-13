@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDdce099fbae4a6510a220957cad4e1f84</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>3d3ba5258787d110c679edfd0ebb35ae</scope_name>
+        <serialized_content>{"FlowDesigner:FDdce099fbae4a6510a220957cad4e1f84":{},"FlowDesigner:FDdce099fbae4a6510a220957cad4e1f84.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDdce099fbae4a6510a220957cad4e1f84\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"host\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"65000\",\"uiUniqueId\":\"1614d7e1-ddae-4986-b8d4-e7f78c1917b8\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>jramos</sys_created_by>
+        <sys_created_on>2023-04-13 19:41:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>90e099fb874a65103deeea883cbb3585</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FDdce099fbae4a6510a220957cad4e1f84</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Service Graph Connector for Red Hat Insights" source="x_rhtpp_sg_rh_ins">3d3ba5258787d110c679edfd0ebb35ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Red Hat Insights">3d3ba5258787d110c679edfd0ebb35ae</sys_scope>
+        <sys_update_name>sys_complex_object_90e099fb874a65103deeea883cbb3585</sys_update_name>
+        <sys_updated_by>jramos</sys_updated_by>
+        <sys_updated_on>2023-04-13 19:41:32</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>
