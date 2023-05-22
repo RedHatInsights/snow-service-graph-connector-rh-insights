@@ -9,7 +9,42 @@
         <data_in_single_column>false</data_in_single_column>
         <data_loader><![CDATA[(function loadData(import_set_table) {
 
-	// Add your code here to insert data to import_set_table
+    //import_set_table.addJSONColumn("data", 5000);
+    // Define Data Stream Action Inputs
+    var inputs = {};
+    var grConnectionAlias = new GlideRecord('sys_alias');
+    grConnectionAlias.get('c69242a587c7d110c679edfd0ebb3590');
+    inputs['connection_alias'] = grConnectionAlias;
+
+    try {
+
+        // Execute Data Stream Action.
+        var result = sn_fd.FlowAPI.getRunner().datastream('x_rhtpp_sg_rh_ins.get_red_hat_insights_inventory_data').inForeground().withInputs(inputs).run();
+        var stream = result.getDataStream();
+        // Process each item in the data stream
+        while (stream.hasNext()) {
+            // Get a single item from the data stream.
+            var item = stream.next();
+            // Use the item.
+            var map = {};
+            map['u_fqdn'] = item.fqdn;
+			map['u_name'] = item.name;
+			map['u_os_release'] = item.os_release;
+			map['u_object_id'] = item.object_id;
+            import_set_table.insert(map);
+        }
+
+    } catch (ex) {
+
+        var message = ex.getMessage();
+
+        gs.error(message);
+
+    } finally {
+
+        stream.close();
+
+    }
 
 })(import_set_table);]]></data_loader>
         <data_stream_action display_value="Get Red Hat Insights Inventory Data">9d93f5f587831510c679edfd0ebb3545</data_stream_action>
@@ -20,7 +55,7 @@
         <expand_node_children>false</expand_node_children>
         <file_path/>
         <file_retrieval_method>Attachment</file_retrieval_method>
-        <format>CSV</format>
+        <format/>
         <glide_keystore>false</glide_keystore>
         <header_row>0</header_row>
         <import_set_table_label>SG-Red-Hat-Insights Inventory Hosts</import_set_table_label>
@@ -29,6 +64,7 @@
         <jdbc_password/>
         <jdbc_server/>
         <jdbc_user_name/>
+        <jdbcprobe_result_set_rows/>
         <jpath_root_node/>
         <last_run_database_field/>
         <last_run_datetime/>
@@ -64,16 +100,16 @@
         <sys_created_by>jramos</sys_created_by>
         <sys_created_on>2022-11-18 17:31:34</sys_created_on>
         <sys_id>6dca34fc871b9d103deeea883cbb35b0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>SG-Red-Hat-Insights Inventory Hosts</sys_name>
         <sys_package display_value="Service Graph Connector for Red Hat Insights" source="x_rhtpp_sg_rh_ins">3d3ba5258787d110c679edfd0ebb35ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Red Hat Insights">3d3ba5258787d110c679edfd0ebb35ae</sys_scope>
         <sys_update_name>sys_data_source_6dca34fc871b9d103deeea883cbb35b0</sys_update_name>
-        <sys_updated_by>jramos</sys_updated_by>
-        <sys_updated_on>2022-11-18 17:31:34</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-21 15:07:34</sys_updated_on>
         <table_name/>
-        <type>data_stream</type>
+        <type>CUSTOM</type>
         <use_batch_import>false</use_batch_import>
         <use_integrated_authentication>false</use_integrated_authentication>
         <use_last_run_datetime>false</use_last_run_datetime>
@@ -81,4 +117,5 @@
         <zipped>false</zipped>
     </sys_data_source>
     <sys_variable_value action="delete_multiple" query="document_key=6dca34fc871b9d103deeea883cbb35b0"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_a20b667587471510c679edfd0ebb355e^id=6dca34fc871b9d103deeea883cbb35b0"/>
 </record_update>
